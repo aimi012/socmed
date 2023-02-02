@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="text">
+
+    
+    <h1>Tipu</h1>
+    <button>Betul la ni </button>
+    
+</div>
+    <script>
+        const ig = "<a href='https://www.instagram.com/aimi01_/'></a>"
+        const Tiktok = "<a href='https://www.instagram.com/aimi01_/'></a>"
+        const SnapChat = "<a href='https://www.instagram.com/aimi01_/'></a>"
+        const text = document.querySelector(".text")
+       const name = prompt("ni sape ea? ")
+       alert ("yeye je " + name)
+       const button = document.querySelector("button")
+       button.innerHTML += name
+
+       document.querySelector("button").addEventListener("click",function() {
+        const h1 = document.querySelector("h1")
+        h1.innerHTML = "AHAHA ok2"
+       button.remove()
+
+       text.innerHTML = `<h1>AHAHAAH OK! ${name} Sorry</h1>
+       <p>Here is my socmed : </p>
+       <ul>
+        <li> ${ig}Tiktok: </li>
+        
+    </ul>`
+       
+
+//        setInterval(displayHello, 1000);
+
+// function displayHello() {
+//   document.querySelector(".text").innerHTML += "Hello";}
+
+       })
+
+       
+    </script>
+</body>
+</html>
